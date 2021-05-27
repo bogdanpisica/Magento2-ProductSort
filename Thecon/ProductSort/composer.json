@@ -1,0 +1,28 @@
+{
+    "name": "thecon/magento2-productsort",
+    "description": "This extension help you to sort products by position, high/low price, best seller and discount.",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+          "name": "Thecon",
+          "homepage": "https://thecon.ro",
+          "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Thecon\\ProductSort\\": ""
+        }
+    }
+}
